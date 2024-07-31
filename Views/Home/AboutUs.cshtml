@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - KhumaloCraft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .hero-banner {
+            background-image: url('path/to/hero-image.jpg'); /* Replace with your hero image path */
+            background-size: cover;
+            background-position: center;
+            color: black;
+            padding: 100px 20px;
+            text-align: center;
+            min-height: 400px; /* Ensure the banner has a minimum height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+            .hero-banner .hero-text h1 {
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+
+            .hero-banner .hero-text p {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .hero-banner .hero-text button {
+                font-size: 18px;
+                padding: 10px 20px;
+                background-color: #f90;
+                border: none;
+                color: black;
+                cursor: pointer;
+                display: inline-block;
+                margin-top: 20px;
+                border-radius: 4px;
+                text-decoration: none;
+            }
+
+        .content-section {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+            .content-section h2 {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+
+            .content-section p {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+
+            .content-section img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 20px auto;
+                border-radius: 8px;
+            }
+
+            .content-section button {
+                font-size: 18px;
+                padding: 10px 20px;
+                background-color: #f90;
+                border: none;
+                color: white;
+                cursor: pointer;
+                display: inline-block;
+                margin-top: 20px;
+                border-radius: 4px;
+                text-decoration: none;
+            }
+
+        .section-divider {
+            border-bottom: 1px solid #ddd;
+            margin: 40px 0;
+        }
+
+        footer {
+            background-color: #f9f9f9;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+            footer a {
+                color: #333;
+                text-decoration: none;
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+    <!-- Hero Banner Section -->
+    <section class="hero-banner">
+        <div class="hero-text">
+            <img src="~/images/pexels-wangming-photo-115695-354939.jpg" alt="Hero Image" style="max-width: 100%; border-radius: 8px;">
+            <h1>Welcome to KhumaloCraft</h1>
+            <p>Discover the beauty of handcrafted treasures from around the globe.</p>
+            <button onclick="location.href='@Url.Action("Mywork", "Mywork")'">Explore Our Collection</button>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- About Our Company Section -->
+    <section class="content-section">
+        <h2>About Our Company</h2>
+        <img src="~/images/pexels-malkocogluraw-18058021.jpg" alt="About Our Company">
+        <p><strong>Who are we and what do we offer?</strong></p>
+        <p>Welcome to KhumaloCraft, where passion meets craftsmanship. Founded by James Khumalo, KhumaloCraft is a premier e-commerce platform dedicated to showcasing the beauty of handcrafted treasures.</p>
+        <button onclick="location.href='@Url.Action("ContactUs", "Home")'">Contact Us</button>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Find Art You Love Section -->
+    <section class="content-section">
+        <h2>Find Art You Love</h2>
+        <img src="~/images/man-505353_640.jpg" alt="Find Art You Love">
+        <p>We’re a small creative art studio based in South Africa, working with adventurous clients and providing a vibrant platform for artists to showcase their talents. Our mission is to connect art lovers with their ideal pieces, fostering a community where creativity thrives.</p>
+        <button onclick="location.href='@Url.Action("Mywork", "Mywork")'">>Start Exploring</button>
+
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Our Story Section -->
+    <section class="content-section">
+        <h2>Our Story</h2>
+        <img src="~/images/pexels-cottonbro-3778080.jpg" alt="Our Story">
+        <p>James Khumalo established KhumaloCraft with a vision to create a global community for handmade products. Inspired by the rich cultural heritage of craftsmanship. We strive to give South African artists a platform to promote and hopefully sell their artworks. We encourage customers and artists to reach out to one another to achieve a valued service to both parties.</p>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Our Mission Section -->
+    <section class="content-section">
+        <h2>Our Mission</h2>
+        <img src="~/images/pottery-1139047_640.jpg" alt="Our Mission">
+        <p>Our mission is to promote the art of craftsmanship. We strive to provide a platform where artisans can showcase their talents and craftsmanship while offering customers access to a curated collection of high-quality handcrafted products.</p>
+    </section>
+
+    <div class="section-divider"></div>
+    <!-- Footer Section -->
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - ST10362208_CLDV6221_POE.REDO - <a href="path/to/privacy">Privacy</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+﻿@model ST10362208_CLDV6221_POE.REDO.Models.ReceiveAllData
+
+@{
+    ViewData["Title"] = "Admin";
+}
+<div class="container mt-5">
+    <div class="row">
+        <!-- Add Product Section -->
+        <div class="col-md-6 mb-4">
+            <h2>Add Product</h2>
+            <form id="addProductForm" method="post" asp-action="AddProduct" asp-controller="Adminstrator" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label asp-for="NewProduct.Name">Name:</label>
+                    <input asp-for="NewProduct.Name" class="form-control" />
+                    <span asp-validation-for="NewProduct.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewProduct.Description">Description:</label>
+                    <input asp-for="NewProduct.Description" class="form-control" />
+                    <span asp-validation-for="NewProduct.Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewProduct.Price">Price:</label>
+                    <input asp-for="NewProduct.Price" class="form-control" />
+                    <span asp-validation-for="NewProduct.Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewProduct.Creator">Creator:</label>
+                    <input asp-for="NewProduct.Creator" class="form-control" />
+                    <span asp-validation-for="NewProduct.Creator" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewProduct.DateCreated">Date Created:</label>
+                    <input asp-for="NewProduct.DateCreated" class="form-control" />
+                    <span asp-validation-for="NewProduct.DateCreated" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewProduct.ImageUrl">Image URL:</label>
+                    <input asp-for="NewProduct.ImageUrl" class="form-control" />
+                    <span asp-validation-for="NewProduct.ImageUrl" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="ImageFile">Image:</label>
+                    <input type="file" class="form-control-file" id="ImageFile" name="ImageFile" />
+                </div>
+                <button type="submit" class="btn btn-primary">Add Product</button>
+            </form>
+        </div>
+
+        <!-- Clients Table -->
+        <div class="col-md-6 mb-4">
+            <h2>Clients</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Id</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var client in Model.Clients)
+                        {
+                            <tr>
+                                <td>@client.UserID</td>
+                                <td>@client.Username</td>
+                                <td>@client.Email</td>
+                                <td>
+                                    <form method="post" asp-action="DeleteClient" asp-controller="Adminstrator">
+                                        <input type="hidden" name="id" value="@client.UserID" />
+                                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Table -->
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Products</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Image</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Actions</th>
+                            <th scope="col">Created By</th>
+                            <th scope="col">Date Created</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model.Products)
+                        {
+                            <tr>
+                                <td><img src="@product.ImageUrl" alt="@product.Name" class="img-thumbnail" style="max-width: 100px;" /></td>
+                                <td>@product.Name</td>
+                                <td>@product.Description</td>
+                                <td>@product.Price</td>
+                                <td>
+                                    <form method="post" asp-action="DeleteProduct" asp-controller="Adminstrator">
+                                        <input type="hidden" name="id" value="@product.Id" />
+                                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                    </form>
+                                </td>
+                                <td>@product.Creator</td>
+                                <td>@product.DateCreated?.ToString("yyyy-MM-dd")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2024 - ST10362208_CLDV6221_POE.REDO - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>

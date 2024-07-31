@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\ST10362208_CLDV6221_POE.REDO.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ST10362208_CLDV6221_POE.REDO.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\782f506953906bf8583ad5f139bfe0eb4a828984239421e41e5ba0c8fb106781e8911b8e2d2792076023013934bd1e9639608ffad8d77b6a960c73_1280.jpg",
+      "PackagePath": "staticwebassets\\images\\782f506953906bf8583ad5f139bfe0eb4a828984239421e41e5ba0c8fb106781e8911b8e2d2792076023013934bd1e9639608ffad8d77b6a960c73_1280.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\93db92bf-4a24-4129-9ea8-284382d0c601.jpg",
+      "PackagePath": "staticwebassets\\images\\93db92bf-4a24-4129-9ea8-284382d0c601.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\Logo.PNG",
+      "PackagePath": "staticwebassets\\images\\Logo.PNG"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\Logo1copy2.PNG",
+      "PackagePath": "staticwebassets\\images\\Logo1copy2.PNG"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\artist-7250695_1280.jpg",
+      "PackagePath": "staticwebassets\\images\\artist-7250695_1280.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\default-image.jpg",
+      "PackagePath": "staticwebassets\\images\\default-image.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\hand-4213487_1280.jpg",
+      "PackagePath": "staticwebassets\\images\\hand-4213487_1280.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\man-505353_640.jpg",
+      "PackagePath": "staticwebassets\\images\\man-505353_640.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\pexels-cottonbro-3778080.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-cottonbro-3778080.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\pexels-malkocogluraw-18058021.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-malkocogluraw-18058021.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\pexels-photo-2167395.jpeg",
+      "PackagePath": "staticwebassets\\images\\pexels-photo-2167395.jpeg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\pexels-wangming-photo-115695-354939.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-wangming-photo-115695-354939.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\images\\pottery-1139047_640.jpg",
+      "PackagePath": "staticwebassets\\images\\pottery-1139047_640.jpg"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\js\\intlTelInput.min.js",
+      "PackagePath": "staticwebassets\\js\\intlTelInput.min.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\js\\nicepage.js",
+      "PackagePath": "staticwebassets\\js\\nicepage.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\js\\utils.js",
+      "PackagePath": "staticwebassets\\js\\utils.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Cloud\\ST10362208_CLDV6221_POE.REDO-main\\ST10362208_CLDV6221_POE.REDO-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.ST10362208_CLDV6221_POE.REDO.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.ST10362208_CLDV6221_POE.REDO.props",
+      "PackagePath": "build\\ST10362208_CLDV6221_POE.REDO.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ST10362208_CLDV6221_POE.REDO.props",
+      "PackagePath": "buildMultiTargeting\\ST10362208_CLDV6221_POE.REDO.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.ST10362208_CLDV6221_POE.REDO.props",
+      "PackagePath": "buildTransitive\\ST10362208_CLDV6221_POE.REDO.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

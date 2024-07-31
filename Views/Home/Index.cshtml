@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KhumaloCraft Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .hero-banner {
+            background-image: url('/images/782f506953906bf8583ad5f139bfe0eb4a828984239421e41e5ba0c8fb106781e8911b8e2d2792076023013934bd1e9639608ffad8d77b6a960c73_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            color: black;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+            .hero-banner .hero-text h1 {
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+
+            .hero-banner .hero-text p {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .hero-banner a {
+                font-size: 18px;
+                padding: 10px 20px;
+                background-color: #f90;
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-decoration: none; /* Added */
+            }
+
+        .explore-products {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+            .explore-products h2 {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+
+            .explore-products a {
+                font-size: 18px;
+                padding: 10px 20px;
+                background-color: #f90;
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-decoration: none; /* Added */
+            }
+
+        .discover-art {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+            .discover-art h2 {
+                font-size: 36px;
+                margin-bottom: 40px;
+                width: 100%;
+            }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 300px;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+            .card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+
+            .card h3 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            .card p {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+
+            .card a {
+                font-size: 16px;
+                padding: 10px 20px;
+                background-color: #f90;
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-decoration: none; /* Added */
+            }
+    </style>
+</head>
+<body>
+    <section class="hero-banner">
+        <div class="hero-text">
+            <h1>KhumaloCraft</h1>
+            <p>Welcome to KhumaloCraft, where we invite you to explore and unleash your creativity with us! Created by artists, for artists, we are dedicated to supporting your success every step of the way.</p>
+            <a href="/Home/AboutUs" class="nav-link text-dark">About Us</a>
+        </div>
+    </section>
+
+    <!-- Explore Our Products Section -->
+    <section class="explore-products">
+        <h2>Explore Our Products</h2>
+        <a href="/Mywork/Mywork" class="nav-link text-dark">View Products</a>
+    </section>
+
+    <!-- Discover Art You Love Section -->
+    <section class="discover-art">
+        <h2>Discover Art You Love</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/artist-7250695_1280.jpg" alt="Discover Art">
+                <h3>Discover Art</h3>
+                <p>Step into the world of KhumaloCraft, where artistry and dedication unite. Discover the magic of craftsmanship where every piece tells a unique story.</p>
+                <a class="nav-link text-dark" asp-controller="Mywork" asp-action="Mywork">Mywork</a>
+            </div>
+            <div class="card">
+                <img src="/images/hand-4213487_1280.jpg" alt="Our Location">
+                <h3>Where are we?</h3>
+                <p>We are based in Pretoria, South Africa, a city vibrant with rich and diverse culture. Here, every artist expresses their individuality in a truly unique way.</p>
+                <a href="/Home/ContactUs" class="nav-link text-dark">Contact Us</a>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2024 - ST10362208_CLDV6221_POE.REDO - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+</html>

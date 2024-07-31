@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+    <style>
+        .topInformation {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .Image-top img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-section {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section class="topInformation">
+        <div class="top-1">
+            <h1>Our Work</h1>
+        </div>
+        <div class="Image-top">
+            <img src="~/images/pexels-photo-2167395.jpeg" alt="Image-top" />
+            <h2>Where artistry meets accessibility. Explore our curated collection of handcrafted treasures from artisans around the globe, and experience the beauty of craftsmanship firsthand.</h2>
+        </div>
+    </section>
+
+    <section class="container product-section">
+        <h1 class="display-4 text-center">Explore The Wonderful Art</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            @foreach (var product in Model)
+            {
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text">@product.Description</p>
+                            <p class="card-text">Price: @string.Format("{0:C}", product.Price)</p>
+                            <form asp-action="AddToCart" asp-controller="Cart" method="post">
+                                <input type="hidden" name="productId" value="@product.Id" />
+                                <button type="submit" class="btn btn-primary">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+
+    <footer class="border-top footer text-muted text-center mt-5">
+        <div class="container">
+            &copy; 2024 - ST10362208_CLDV6221_POE.REDO - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <!-- Bootstrap JS and other scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</body>
+</html>

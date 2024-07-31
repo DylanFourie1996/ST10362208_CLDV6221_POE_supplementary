@@ -1,0 +1,101 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-banner {
+    background-image: url('path/to/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+    .hero-banner .hero-text h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .hero-banner .hero-text p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hero-banner button {
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #f90;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+.explore-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+    .explore-products h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .explore-products button {
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #f90;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+.discover-art {
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+    .discover-art h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+}
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .card h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .card button {
+        font-size: 16px;
+        padding: 10px 20px;
+        background-color: #f90;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }

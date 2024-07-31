@@ -1,0 +1,204 @@
+﻿@{
+    string isAdminCookie = Context.Request.Cookies["isAdmin"];
+    bool isAdmin = !string.IsNullOrEmpty(isAdminCookie) && isAdminCookie == "1";
+    string loggedInUser = Context.Session.GetString("LoggedInUser");
+    bool isLoggedIn = !string.IsNullOrEmpty(loggedInUser);
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ST10362208_CLDV6221_POE.REDO</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ST10362208_CLDV6221_POE.REDO.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-7LQ7F9vqGj6eu7G40e4HtGZCx+JgAJ+Piz2x7HlYNp4oYdl3Ow+E1ljkKwO+b2W9m7M7h1xbDwnEvIq5CxukrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .navbar-cart-bar {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+            .navbar-cart-bar a {
+                color: white;
+                text-decoration: none;
+                margin-left: 20px;
+            }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-cart-bar .input-group {
+            width: 200px; /* Adjust the width as needed */
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">KhumaloCraft</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Mywork" asp-action="Mywork">Mywork</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact Us</a>
+                        </li>
+                        @if (isAdmin)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Adminstrator" asp-action="Admin">Adminstrator</a>
+                            </li>
+                        }
+                    </ul>
+                    <ul class="navbar-nav">
+                        @if (isLoggedIn)
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    @loggedInUser
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                                    <li><a class="dropdown-item" asp-controller="purchaseHistory" asp-action="purchaseHistory">Purchase History</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <form asp-controller="RegisterAndLogin" asp-action="Logout" method="post">
+                                            <button type="submit" class="dropdown-item">Logout</button>
+                                        </form>
+                                    </li>
+                        </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <button class="nav-link text-dark btn" data-bs-toggle="modal" data-bs-target="#loginModal">Login/Register</button>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="navbar-cart-bar">
+            <div class="col-md-6 mx-auto text-center">
+            </div>
+            <div class="col-md-6 text-end">
+                <a asp-controller="Cart" asp-action="Cart" class="text-decoration-none text-light">
+                    <i class="fas fa-shopping-cart"></i> Cart
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <span class="badge bg-primary">@ViewBag.CartItemCount</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-primary">0</span>
+                    }
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login/Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+
+                            @if (ViewBag.Error != null)
+                            {
+                                <div class="alert alert-danger" role="alert">
+                                    @ViewBag.Error
+                                </div>
+                            }
+                            <!-- Login Form -->
+                            <div class="col-md-6">
+                                <form asp-action="Login" asp-controller="RegisterAndLogin" method="post">
+                                    <div class="mb-3">
+                                        <label for="loginUsername" class="form-label">Username/Email</label>
+                                        <input type="text" class="form-control" id="loginUsername" name="loginUsername">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="loginPassword" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="loginPassword" name="loginPassword">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Login</button>
+                                </form>
+                            </div>
+                            <!-- Register Form -->
+                            <div class="col-md-6">
+                                <form asp-action="Register" asp-controller="RegisterAndLogin" method="post">
+                                    <div class="mb-3">
+                                        <label for="registerUsername" class="form-label">Username</label>
+                                        <input type="text" class="form-control" id="registerUsername" name="registerUsername">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="registerEmail" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="registerEmail" name="registerEmail">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="registerPassword" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="registerPassword" name="registerPassword">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label>Register as:</label><br>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="client" name="registerType" value="client" checked>
+                                            <label class="form-check-label" for="client">Client</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="admin" name="registerType" value="admin">
+                                            <label class="form-check-label" for="admin">Admin</label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Register</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="~/js/utils.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

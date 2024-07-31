@@ -1,0 +1,81 @@
+﻿@model ST10362208_CLDV6221_POE.REDO.Models.ReceiveAllData
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete Transaction</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCSyJVwVh5OWQuZb06yZMGwl8En9b5btu1n3e37Cnk6rjI6CQXANRFQ29Ue7QTM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="display-4 text-center">Transaction Complete</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CartItems)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.ProductDescription</td>
+                        <td>@item.ProductPrice.ToString("C")</td>
+                        <td>@item.Quantity</td>
+                        <td>@(item.ProductPrice * item.Quantity)</td>
+                        <td>
+                            <form method="post" asp-action="RemoveFromCart" asp-controller="Cart">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="row">
+            <div class="col-md-6 offset-md-6">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td class="text-end">Subtotal:</td>
+                            <td>@Model.Subtotal.ToString("C")</td>
+                        </tr>
+                        <tr>
+                            <td class="text-end">VAT (15%):</td>
+                            <td>@Model.VatAmount.ToString("C")</td>
+                        </tr>
+                        <tr>
+                            <td class="text-end">Total:</td>
+                            <td>@Model.Total.ToString("C")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        @if (TempData["TransactionCompleted"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @TempData["TransactionCompleted"]
+            </div>
+        }
+
+        <form asp-action="CompleteTransaction" method="post">
+            <button type="submit" class="btn btn-primary">Complete Transaction</button>
+        </form>
+    </div>
+</body>
+</html>
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2024 - ST10362208_CLDV6221_POE.REDO - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>

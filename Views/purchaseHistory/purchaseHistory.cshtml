@@ -1,0 +1,50 @@
+﻿@model List<ST10362208_CLDV6221_POE.REDO.Models.Transactions>
+
+
+    @{
+    ViewData["Title"] = "purchaseHistory";
+
+    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purchase History</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCSyJVwVh5OWQuZb06yZMGwl8En9b5btu1n3e37Cnk6rjI6CQXANRFQ29Ue7QTM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="display-4 text-center">Purchase History</h1>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Transaction ID</th>
+                    <th>User ID</th>
+                    <th>Product ID</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                    <th>Transaction Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var transaction in Model)
+                {
+                    <tr>
+                        <td>@transaction.TransactionID</td>
+                        <td>@transaction.UserID</td>
+                        <td>@transaction.ProductID</td>
+                        <td>@transaction.Quantity</td>
+                        <td>@transaction.TotalPrice.ToString("C")</td>
+                        <td>@transaction.TransactionDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2024 - ST10362208_CLDV6221_POE.REDO - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+</html>
